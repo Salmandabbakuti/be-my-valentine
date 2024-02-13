@@ -43,7 +43,7 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Are you sure?",
+    "Please, love you Pookie :(",
     "Pookie please",
     "Don't do this to me :(",
     "You're breaking my heart",
@@ -63,5 +63,5 @@ function changeImage(image) {
 }
 
 function updateNoButtonText() {
-  noButton.innerHTML = generateMessage(noCount);
+  titleElement.innerHTML = generateMessage(noCount);
 }
